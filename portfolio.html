@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylE.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gian Caparas - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">GianPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO: Profile LEFT + Content RIGHT -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <!-- CLEAN Portrait - Blue Gradient Border -->
+        <div class="left-profile-hero">
+            <div class="profile-portrait-clean">
+                <img src="image/avatar.png" alt="Your Profile" class="profile-photo-clean">
+            </div>
+        </div>
+
+        <!-- RIGHT: Content -->
+        <div class="hero-content-right">
+            <div class="hero-badge">Frontend Developer</div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Gian M. Caparas</span>
+            </h1>
+            <p class="hero-subtitle">
+                Building beautiful, performant web experiences with modern tools
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="hero-btn btn-primary">
+                    <span class="btn-content">
+                        <i class="fas fa-eye btn-icon"></i>
+                        <span class="btn-text">View Work</span>
+                    </span>
+                    <div class="btn-shine"></div>
+                    <div class="btn-ripple"></div>
+                </a>
+                <a href="#contact" class="hero-btn btn-secondary">
+                    <span class="btn-content">
+                        <i class="fas fa-paper-plane btn-icon"></i>
+                        <span class="btn-text">Contact</span>
+                    </span>
+                    <div class="btn-shine"></div>
+                    <div class="btn-ripple"></div>
+                </a>
+            </div>
+
+            <div class="hero-stats-mini">
+                Gian M. Caparas | 1ST YEAR BSIT STUDENT | 2 WEBSITE
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <img src="image/profile.png" alt="Profile" class="profile-img">
+                <div class="about-text">
+                    <h3>Frontend Developer</h3>
+                    <p>I'm a first-year BSIT student currently learning web development. I enjoy creating simple and
+                        clean websites and improving my skills step by step.</p>
+
+                </div>
+            </div>
+            <!--Skills-->
+            <div class="skills-section">
+                <h3 class="skills-title">Skills & Expertise</h3>
+                <div class="skill-progress-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JAVA SCRIPT</span>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JAVA</span>
+                            <span class="skill-percent">81%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="81%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">PYTHONE</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">GIT</span>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects fade-in">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image"><i class="fas fa-laptop-code"></i></div>
+                    <div class="project-content">
+                        <h3>Pet Padise</h3>
+                        <p>Modern shopping platform with cart functionality and responsive design.
+                        </p>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="https://gian-web1.github.io/Pet-Paradise/webp.html" class="btn btn-secondary"
+                                style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">View</a>
+                            <a href="https://github.com/Gian-web1/Pet-Paradise" class="btn btn-secondary"
+                                style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact fade-in">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">
+                Ready to start your next project? Send me a message and let's create something great together.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:giancaparas1@gmail.com" class="contact-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.facebook.com/gjyn.cprs" class="contact-link" title="LinkedIn">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/gjyn.cprs/?hl=en" class="contact-link" title="GitHub">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="contact-link" title="Twitter">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p style="margin-top: 4rem; color: #6b7280; font-size: 0.9rem; text-align: center;">
+                © 2024 Gian Caparas. Made with Love
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

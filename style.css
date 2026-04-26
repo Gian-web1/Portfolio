@@ -96,7 +96,6 @@ section {
     padding: 0 2rem;
 }
 
-/* RIGHT-ALIGNED Hero*/
 .hero {
     height: 100vh;
     width: 100vw;
@@ -145,7 +144,6 @@ section {
 .left-profile-hero {
     position: absolute;
     left: 8%;
-    /* More margin-left */
     top: 50%;
     transform: translateY(-50%);
     z-index: 3;
@@ -167,11 +165,8 @@ section {
 .profile-portrait-clean {
     position: relative;
     width: 380px;
-    /* Perfect width */
     height: 500px;
-    /* Portrait height */
     margin-left: 20px;
-    /* Extra left margin */
 }
 
 .profile-photo-clean {
@@ -186,16 +181,13 @@ section {
     border: 6px solid transparent;
 
     box-shadow:
-        /* Main image shadow */
         0 40px 90px rgba(0, 0, 0, 0.9),
         0 10px 30px rgba(0, 0, 0, 0.5),
 
-        /* Blue gradient border glow */
         0 0 0 6px rgba(96, 165, 250, 0.6),
         0 0 0 12px rgba(59, 130, 246, 0.4),
         0 0 0 18px rgba(30, 64, 175, 0.2),
 
-        /* Outer glow */
         0 0 40px rgba(96, 165, 250, 0.3);
 
     transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -260,17 +252,13 @@ section {
     position: absolute;
     top: 0;
     right: 5%;
-    /* Matches nav padding */
     width: 40%;
-    /* Perfect size */
     max-width: 500px;
     height: 100vh;
-    /* Full height */
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 120px;
-    /* Exact navbar height */
     padding-bottom: 2rem;
     z-index: 2;
     animation: slideInRight 1.2s ease-out;
@@ -329,7 +317,6 @@ section {
     display: flex;
     gap: 1.5rem;
     justify-content: flex-start;
-    /* Aligns with right content */
     margin-bottom: 1.5rem;
     flex-wrap: wrap;
 }
@@ -365,7 +352,6 @@ section {
     transition: all 0.3s ease;
 }
 
-/* Primary Button */
 .btn-primary {
     background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #1e40af 100%);
     color: #ffffff;
@@ -391,7 +377,6 @@ section {
     transform: translateX(4px);
 }
 
-/* Secondary Button */
 .btn-secondary {
     background: rgba(255, 255, 255, 0.05);
     color: #60a5fa;
@@ -416,7 +401,6 @@ section {
     transform: translateX(4px);
 }
 
-/* Shine Effect */
 .btn-shine {
     position: absolute;
     top: 0;
@@ -434,7 +418,6 @@ section {
     left: 100%;
 }
 
-/* Ripple Effect */
 .btn-ripple {
     position: absolute;
     border-radius: 50%;
@@ -451,7 +434,6 @@ section {
     }
 }
 
-/* Active Click */
 .hero-btn:active .btn-ripple {
     animation-play-state: running;
 }
@@ -515,7 +497,6 @@ section {
 .about {
     background: #0a0a0a;
     padding: 20px 0;
-    /* Perfect vertical spacing */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -527,7 +508,6 @@ section {
     gap: 3rem;
     width: 100%;
     max-height: 85vh;
-    /* Fits perfectly on screen */
     overflow: hidden;
 }
 
